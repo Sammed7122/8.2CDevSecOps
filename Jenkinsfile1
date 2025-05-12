@@ -43,7 +43,7 @@ pipeline {
             set PATH=%PATH%;%WORKSPACE%\\sonar-scanner\\sonar-scanner-5.0.1.3006-windows\\bin
 
             
-            sonar-scanner -Dsonar.projectKey=Sammed7122_8.2CDevSecOps -Dsonar.organization="Sammed Bharat Vaigude" -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=9f2edb7eeb0d36ad5f101180a0f6c752cc8a62a0'''
+            sonar-scanner -Dsonar.projectKey=Sammed7122_8.2CDevSecOps -Dsonar.organization=Sammed7122 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=9f2edb7eeb0d36ad5f101180a0f6c752cc8a62a0'''
        }
      }
 
